@@ -47,6 +47,8 @@ function uploadCashFlow() {
           const transaction = db.transaction(["new_cash_flow"], "readwrite");
           const cashFlowObjStore = transaction.objectStore("new_cash_flow");
           cashFlowObjStore.clear();
+          console.log("online again, money added");
+          alert("You're online bro! Funds added :)");
         })
         .catch((err) => {
           console.log(err);

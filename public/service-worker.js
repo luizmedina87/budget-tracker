@@ -1,6 +1,3 @@
-const APP_PREFIX = "BudgetTracker-";
-const VERSION = "version_01";
-const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
   "./index.html",
   "./manifest.json",
@@ -16,6 +13,9 @@ const FILES_TO_CACHE = [
   "./js/idb.js",
   "./js/index.js",
 ];
+const APP_PREFIX = "BudgetTracker-";
+const VERSION = "version_01";
+const CACHE_NAME = APP_PREFIX + VERSION;
 
 // Responding with cached resources
 self.addEventListener("fetch", function (e) {
