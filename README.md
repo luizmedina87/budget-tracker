@@ -18,7 +18,7 @@ Luiz Medina
 https://github.com/luizmedina87
 
 ## Demo
-![project demo](https://github.com/luizmedina87/budget-tracker/blob/main/xxx)
+![project demo](https://github.com/luizmedina87/budget-tracker/blob/main/assets/gif/demo.gif)
 
 ## License
 https://opensource.org/licenses/MIT
